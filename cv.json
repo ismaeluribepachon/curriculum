@@ -1,0 +1,376 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Ismael",
+      "surnames": "Uribe Pachón",
+      "title": "Senior Software Engineer | Backend & Data Processing | JVM-lover | Father of 2 cats",
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJgTwKgJcpQg0RaSKMYcHeNsQ)",
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Madrid"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/iuribepachon/"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Devo",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/08/18/a5053740-0ce1-416c-ab31-96265d053228_imagen_2025-08-18_14.png",
+            "alt": "imagen_2025-08-18_140823800.png"
+          },
+          "URL": "https://www.devo.com/es"
+        },
+        "roles": [
+          {
+            "name": "Senior Software Engineer",
+            "startDate": "2020-11-01",
+            "finishDate": "2025-08-01",
+            "challenges": [
+              {
+                "description": "- Design and development of real-time event processing applications in Java, ensuring low latency and high reliability in a multi-threading ecosystem (Flow).\n- Maintenance and enhancement of the alert management services with hexagonal architecture.\n- Development of the alert execution engine, ensuring efficient execution of rules under high-load conditions."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Helm",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Pragsis Bidoop",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/08/18/09a6cee9-ca6f-44af-93b4-3f0552f76892_imagen_2025-08-18_14.png",
+            "alt": "imagen_2025-08-18_140449088.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Data Engineer",
+            "startDate": "2018-03-01",
+            "finishDate": "2020-11-01",
+            "challenges": [
+              {
+                "description": "Santander Tecnología - CXM\n- Development of core libraries to abstract different databases access (HBase, MongoDB).\n- Development of generic libraries to simplify the development of streaming and batch data processing.\n- Design and development of microservices in Spring Boot ecosystem.\n- Implementation of services in Java to generate user notifications in real time and batch using Spark Streaming,\nKafka, HBase, Flume and HDFS."
+              }
+            ],
+            "competences": [
+              {
+                "name": "HDFS",
+                "type": "technology"
+              },
+              {
+                "name": "Hbase",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Kafka",
+                "type": "technology"
+              },
+              {
+                "name": "MongoDB",
+                "type": "technology"
+              },
+              {
+                "name": "Salesforce Marketing Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "Spark",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "buguroo Offensive Security",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/08/18/324884cf-ad39-491e-a75b-0edbe4e8d640_imagen_2025-08-18_14.png",
+            "alt": "imagen_2025-08-18_140351154.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "startDate": "2016-07-01",
+            "finishDate": "2018-03-01",
+            "challenges": [
+              {
+                "description": "- Development of Java applications related to security: vulnerabilities management, static code analysis and threat prevention browser.\n- Development of data migration scripts in Groovy.\n- Develop, evolve and maintain Java services in distributed high availability environments."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Groovy",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "University of Alcalá",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/08/18/897281cf-644b-4564-9a90-85b00af59ba1_imagen_2025-08-18_14.png",
+            "alt": "imagen_2025-08-18_140317504.png"
+          },
+          "URL": "https://uah.es/es"
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "startDate": "2013-03-01",
+            "finishDate": "2016-05-01",
+            "challenges": [
+              {
+                "description": "- Design and development of web pages for several companies.\n- Administration and modification of web applications for the Department of Computer Science.\n- Development of Android applications.\n- Development of hybrid applications using Apache Cordova."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Elasticsearch",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Hadoop",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kafka",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linux",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spark",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Degree in Computer Science Engineering",
+        "startDate": "2013-09-01",
+        "institution": {
+          "name": "Universidad de Alcalá",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/08/26/4a2dc586-0eed-408a-9505-9e4fa77c22df_universidad_de_alcal.svg",
+            "alt": "Universidad_de_Alcalá_(2021)_escudo_azul.svg"
+          }
+        },
+        "finishDate": "2017-07-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Higher-Level Vocational Education Training in Web Applications Development",
+        "startDate": "2011-09-01",
+        "institution": {
+          "name": "I.E.S Alonso de Avellaneda"
+        },
+        "finishDate": "2013-06-01"
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team player",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Uncertainty tolerance",
+          "type": "practice"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/iuribepachon/",
+          "type": "linkedin"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredRoles": [
+        "Backend Developer",
+        "Data Engineer"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "AWS",
+        "type": "technology"
+      },
+      {
+        "name": "Docker",
+        "type": "technology"
+      },
+      {
+        "name": "Java",
+        "type": "technology"
+      },
+      {
+        "name": "Spring",
+        "type": "technology"
+      },
+      {
+        "name": "Spring Boot",
+        "type": "technology"
+      }
+    ]
+  }
+}
