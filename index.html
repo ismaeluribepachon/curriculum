@@ -112,7 +112,7 @@
         grid-template-areas:
           "aside divider header"
           "aside divider main";
-        max-width: 1220px;
+        max-width: 1400px;
         align-self: center;
       }
     }
@@ -227,6 +227,11 @@
       height: 100%;
     }
 
+    .aside__section>.secondary-divider {
+      width: var(--spacing_64);
+      margin-left: var(--spacing_32);
+    }
+
     .aside__section__header>div>h3 {
       color: var(--gray_color_900);
       font-size: 16px;
@@ -259,6 +264,10 @@
       padding-left: var(--spacing_32);
       font-size: 12px;
       line-height: 24px;
+    }
+
+    p.experience-summary {
+      padding-bottom: var(--spacing_16);
     }
 
     @media (min-width: 728px) {
@@ -374,7 +383,7 @@
 
       .main__section__item {
         display: grid;
-        grid-template-columns: minmax(106px, 13%) auto 1fr;
+        grid-template-columns: minmax(106px, 10%) auto 1fr;
         gap: var(--spacing_32);
       }
 
@@ -496,22 +505,36 @@
           </svg>
           <div>
             <h3>
-              Competencies
+              Technical skills
             </h3>
             <hr class="secondary-divider" />
           </div>
         </div>
         <ul class="aside__section__list-items">
+          <li>Java</li>
+          <li>Groovy</li>
+          <li>Kotlin</li>
+          <li>Scala</li>
+        </ul>
+        <hr class="secondary-divider" />
+        <ul class="aside__section__list-items">
+          <li>Spring</li>
+          <li>RPC</li>
+          <li>Kafka</li>
+          <li>Spark</li>
+          <li>Hadoop</li>
+        </ul>
+        <hr class="secondary-divider" />
+        <ul class="aside__section__list-items">
           <li>AWS</li>
           <li>Docker</li>
-          <li>Elasticsearch</li>
-          <li>Hadoop</li>
-          <li>Java</li>
-          <li>Kafka</li>
-          <li>Linux</li>
-          <li>Spark</li>
-          <li>Spring</li>
-          <li>Spring Boot</li>
+          <li>Kubernetes</li>
+          <li>Helm</li>
+        </ul>
+        <hr class="secondary-divider" />
+        <ul class="aside__section__list-items">
+          <li>MySQL</li>
+          <li>MongoDB</li>
         </ul>
       </div>
 
@@ -531,9 +554,11 @@
           </div>
         </div>
         <ul class="aside__section__list-items">
-          <li>Continuous learning</li>
-          <li>Team player</li>
-          <li>Uncertainty tolerance</li>
+          <li>Distributed systems</li>
+          <li>Microservices</li>
+          <li>Concurrency</li>
+          <li>Event-driven architectures</li>
+          <li>REST APIs</li>
         </ul>
       </div>
     </aside>
@@ -563,12 +588,15 @@
             </div>
             <div class="data">
               <p><b>Senior Software Engineer</b></p>
+              <p class="experience-summary">Worked on large-scale, real-time concurrent data processing systems for security analytics and alerting.</p>
               <ul>
-                <li>Design and development of real-time event processing applications in Java, ensuring low latency and high reliability in a multi-threading ecosystem (Flow).</li>
-                <li>Maintenance and enhancement of the alert management services with hexagonal architecture.</li>
-                <li>Development of the alert execution engine, ensuring efficient execution of rules under high-load conditions.</li>
+                <li>Development and market launch of <a href="https://docs.devo.com/space/latest/95213164/Flow">Flow</a>, with a great reception from the platform customers.</li>
+                <li>Reduced operational issues by introducing observability mechanisms and internal real use cases.</li>
+                <li>Reduced time responses and improved maintainability with different refactors in the microservices.</li>
+                <li>Designed and launched the new API version that improved the user experience with extended features.</li>
+                <li>Cross-area collaboration by improving CI/CD workflows, infrastructure configurations, and driving the security issues management and coordination, achieving the FedRamp certification.</li>
+                <li>Mentored engineers through code reviews and technical discussions, raising overall code quality.</li>
               </ul>
-
             </div>
           </div>
         </div>
@@ -590,12 +618,14 @@
             </div>
             <div class="data">
               <p><b>Data Engineer</b></p>
-              <p>Santander Tecnología - CXM</p>
+              <p><i>Santander Tecnología - CXM</i></p>
+              <p class="experience-summary">Built and maintained large-scale data processing solutions.</p>
               <ul>
-                <li>Development of core libraries to abstract different databases access (HBase, MongoDB).</li>
-                <li>Development of generic libraries to simplify the development of streaming and batch data processing.</li>
-                <li>Design and development of microservices in Spring Boot ecosystem.</li>
-                <li>Implementation of services in Java to generate user notifications in real time and batch using Spark Streaming, Kafka, HBase, Flume and HDFS.</li>
+                <li>Developed batch and streaming data pipelines using Spark Streaming and HBase.</li>
+                <li>Built reusable ingestion and transformation components to standardize data workflows.</li>
+                <li>Worked with large datasets under strict performance and reliability requirements.</li>
+                <li>Improved data pipeline monitoring and stability, reducing operational incidents.</li>
+                <li>ORM development to connect to different Big Data sources (HBase, MongoDB, etc.) to abstract the access through reusable components.</li>
               </ul>
 
             </div>
@@ -619,10 +649,9 @@
             </div>
             <div class="data">
               <p><b>Software Developer</b></p>
+              <p class="experience-summary">Backend developer working on security-focused platforms and data analysis tools.</p>
               <ul>
-                <li>Development of Java applications related to security: vulnerabilities management, static code analysis and threat prevention browser.</li>
-                <li>Development of data migration scripts in Groovy.</li>
-                <li>Develop, evolve and maintain Java services in distributed high availability environments.</li>
+                <li>Developed Java applications related to security in distributed high-availability environments: vulnerability management, static code analysis, and threat prevention for browsers.</li>
               </ul>
             </div>
           </div>
@@ -645,11 +674,11 @@
             </div>
             <div class="data">
               <p><b>Software Developer</b></p>
+              <p class="experience-summary">Collaboration in the Computer Science Department on projects with different companies.</p>
               <ul>
-                <li>Design and development of web pages for several companies.</li>
-                <li>Administration and refactoring of web applications for the Department of Computer Science.</li>
-                <li>Development of Android applications.</li>
-                <li>Development of hybrid applications using Apache Cordova.</li>
+                <li>Participated in analysis, implementation, and long-term maintenance of internal tools.</li>
+                <li>Designed and developed web and mobile applications for companies in different industries, such as medical insurance, waste management, etc.</li>
+                <li>Supported University professors by researching, preparing, and teaching some lessons for the Computer Science Engineering Degree.</li>
               </ul>
 
             </div>
